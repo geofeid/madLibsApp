@@ -10,4 +10,47 @@ let originalStory = `<h2>In ${userInputs[0]}, computer pioneer ${userInputs[1]} 
 console.log(originalStory);
 
 
+
+ // user-prompts for each mad-lib replacement
+let solicitation = `Please enter a`;
+let questionArray = [
+  `${solicitation} year ("2001", "2021" etc)`,
+  `${solicitation} person's full name`,
+  `${solicitation} computer-specific model ("commodore 64" etc)`,
+  `${solicitation} famous school`,
+  `${solicitation} word for people you know (friends, family etc)`,
+  `${solicitation} type of bug`,
+  `${solicitation} computer-specific part (plural-tense, ie "screens")`,
+  `${solicitation} profession (plural-tense, i.e. "painters")`,
+  `${solicitation} type of book`,
+  `${solicitation} verb (past-tense)`,
+  `${solicitation}nother verb (past-tense)`,
+  `${solicitation}n adjective`,
+  `${solicitation} pronoun`,
+  `${solicitation} noun`,
+  `${solicitation} verb`,
+  `${solicitation} month, day and year (long-form, ie January, 1 2000)`,
+  `${solicitation} number`,
+  `${solicitation} noun (plural-tense)`,
+  `${solicitation} famous museum`,
+  `${solicitation} city, state (ie Washington, D.C)`,
+  `${solicitation}n adjectiv`,
+  `${solicitation} physics-specific noun (ie "gravity")`,
+  `${solicitation} person's full name`,
+  `${solicitation} number`,
+  `${solicitation} type of document (ie "poem", "essay" etc)`,
+  `${solicitation} bad thing (ie an "error")`,
+  `${solicitation}n old machine`,
+  `${solicitation} tool used for hunting`,
+  `${solicitation} verb (infinitive-tense)`,
+];
+
+
 let userInputs = [];
+
+//Logic
+
+for (let i = questionTotal; i >= 0; i--) {
+    // console.log(`The "i" of our "for" loop `);
+     console.log(i);
+}
