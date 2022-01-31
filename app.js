@@ -50,7 +50,10 @@ let userInputs = [];
 
 //Logic
 
-for (let i = questionTotal; i >= 0; i--) {
+let questionCounter = 0;
+
+for (let i = numberOfQuestions; i >= 0; i--) {
     // console.log(`The "i" of our "for" loop `);
      console.log(i);
+     console.log("What question (of questionArray) is accessed (using questionCounter):");
 }
