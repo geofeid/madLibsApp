@@ -62,6 +62,8 @@ for (let i = numberOfQuestions; i >= 0; i--) {
           questionArray[questionCounter] + `... (${questionTotal} questions left)`
         )
       );
+      console.log(userInputs);
+    questionCounter++;
 
      
      questionTotal--;
