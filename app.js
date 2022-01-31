@@ -56,4 +56,10 @@ for (let i = numberOfQuestions; i >= 0; i--) {
     // console.log(`The "i" of our "for" loop `);
      console.log(i);
      console.log("What question (of questionArray) is accessed (using questionCounter):");
+
+
+
+     console.log( questionArray[questionCounter] + `... (${questionTotal} questions left)`);
+     questionTotal--;
+
 }
