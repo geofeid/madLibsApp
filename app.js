@@ -68,4 +68,8 @@ for (let i = numberOfQuestions; i >= 0; i--) {
      
      questionTotal--;
 
+//User finished Inputs
+     alert(
+        "All done! Ready for your totally-accurate, not-at-all confusing history of tech??"
+      );
 }
