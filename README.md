@@ -20,4 +20,4 @@ Bit Degree Front-end Academy Js Sprint 8 project.
   
 
 # WebSite Host
-madLibsApp game can be found in Github Pages [Weeblys Bakery](https://geofeid.github.io/madLibsApp/)
+madLibsApp game can be found in Github Pages [madLibsApp](https://geofeid.github.io/madLibsApp/)
